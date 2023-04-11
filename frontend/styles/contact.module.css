@@ -1,0 +1,10 @@
+.map{
+    height: 60vh;
+    width: 78.5vw;
+}
+
+@media screen and (max-width: 650px ){
+    .map{
+        width: 90vw;
+    }
+}
