@@ -6,6 +6,7 @@
     /* --primary-bg-color: white; */
     --primary-bg-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity));
     /* --btn-hover-bg:rgb(247, 110, 60); */
+    --secondary-bg-color:#103f6d;
     --btn-hover-bg:#0c2f52;
 }
 
@@ -15,7 +16,7 @@
 }
 
 .navbar {
-    background-color: var(--primary-bg-color) !important;
+    background-color: var(--primary-btn-color) !important;
 }
 
 .container-fluid {
@@ -26,9 +27,19 @@
     flex-grow: unset !important;
 }
 
+/* font color for navbar links and title of company */
+.nav-link, .navbar-brand{
+  color: white !important;
+}
+
+.navbar-brand{
+  font-size: 30px;
+  font-weight: 500;
+}
+
 .active-link {
-    color: white !important;
-    background-color: var(--primary-btn-color);
+    color: var(--secondary-bg-color) !important;
+    background-color: white;
     border-radius: 7px;
 }
 
